@@ -38,7 +38,7 @@ namespace ExcelTest
             }
 
             xlWorksheet.Cells[5, 2] = "Ole92";
-            xlWorksheet.Cells[6, 3] = "Ole63";
+            xlWorksheet.Cells[6, 3] =  "Ole63";
             xlWorkbook.Save();
             //cleanup
             GC.Collect();
